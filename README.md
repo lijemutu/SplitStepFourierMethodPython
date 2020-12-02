@@ -20,12 +20,12 @@ pip install matplotlib
 ## Execution 
 
 The default equation is 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;i\frac{\partial\psi}{\partial t}=-\frac{\partial^2\psi}{\partialx^2}+0.5(x-x_0)^2" title="\Large i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;i\frac{\partial \psi}{\partial t}=-\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" title="\Large i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" />
 
 
 with initial condition:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^{-(x-x_0)^2/2}" title="\Large e^{-(x-x_0)^2/2}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^{-(x- x_0)^2/2}" title="\Large e^{-(x-x_0)^2/2}" />
 
 
 
@@ -59,7 +59,7 @@ opr.K = np.exp(-0.5 * (par.k ** 2 - 1j*par.k) * par.dt * 1j)
 ```
 
 #### Nonlinear Part
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;" title="\Large " />
+
 Nonlinear changes are of the form:
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;N = 0.5(x-x_0)^2" title="\Large N = 0.5(x-x_0)^2" />
 
