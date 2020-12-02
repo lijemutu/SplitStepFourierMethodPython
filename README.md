@@ -24,7 +24,8 @@ $$i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(
 
 with initial condition:
 
-![e^{-(x-x_0)^2/2}](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^{-(x-x_0)^2/2}" title="\Large e^{-(x-x_0)^2/2}" />
+
 
 $$ e^{-(x-x_0)^2/2}$$
 
