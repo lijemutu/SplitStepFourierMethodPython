@@ -20,9 +20,8 @@ pip install matplotlib
 ## Execution 
 
 The default equation is 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" title="\Large i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;i\frac{\partial\psi}{\partial t}=-\frac{\partial^2\psi}{\partialx^2}+0.5(x-x_0)^2" title="\Large i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" />
 
-$$i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2$$
 
 with initial condition:
 
