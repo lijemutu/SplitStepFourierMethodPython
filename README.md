@@ -24,7 +24,11 @@ The default equation is
 
 ![i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2](http://www.sciweavers.org/tex2img.php?eq=i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%20%3D%20-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B0.5%28x-x_0%29%5E2%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
+<!-- $$
+i\frac{\partial \psi}{\partial t}=-\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2
+$$ --> 
 
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%3D-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B0.5(x-x_0)%5E2%0D"></div>
 
 with initial condition:
 
