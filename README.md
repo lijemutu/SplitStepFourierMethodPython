@@ -22,7 +22,7 @@ pip install matplotlib
 The default equation is 
 
 
-![i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2](http://www.sciweavers.org/tex2img.php?eq=i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%20%3D%20-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B0.5%28x-x_0%29%5E2&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+![i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2](http://www.sciweavers.org/tex2img.php?eq=i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%20%3D%20-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B0.5%28x-x_0%29%5E2%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 
 
@@ -71,6 +71,7 @@ opr.K = np.exp(-0.5 * (par.k ** 2 - 1j*par.k) * par.dt * 1j)
 #### Nonlinear Part
 
 Nonlinear changes are of the form:
+
 ![sdcsc](http://www.sciweavers.org/tex2img.php?eq=N%20%3D%200.5%28x-x_0%29%5E2%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 and its implementation is located on
@@ -80,6 +81,7 @@ opr.V = 0.5 * (par.x - voffset) ** 2
 ```
 
 If you want to compute:
+
 ![wed](http://www.sciweavers.org/tex2img.php?eq=i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%20%3D%20-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B%7C%5Cpsi%7C%5E2%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 
