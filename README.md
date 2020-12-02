@@ -23,6 +23,11 @@ The default equation is
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;i\frac{\partial \psi}{\partial t}=-\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" title="\Large i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2" />
 
 
+
+![i\frac{\partial \psi}{\partial t} = -\frac{\partial^2 \psi}{\partial x^2}+0.5(x-x_0)^2](http://www.sciweavers.org/tex2img.php?eq=<b><i>i%5Cfrac%7B%5Cpartial%20%5Cpsi%7D%7B%5Cpartial%20t%7D%20%3D%20-%5Cfrac%7B%5Cpartial%5E2%20%5Cpsi%7D%7B%5Cpartial%20x%5E2%7D%2B0.5%28x-x_0%29%5E2</i></b>&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+
+
+
 with initial condition:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;e^{-(x- x_0)^2/2}" title="\Large e^{-(x-x_0)^2/2}" />
