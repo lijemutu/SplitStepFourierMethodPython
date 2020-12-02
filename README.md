@@ -37,7 +37,7 @@ You can change equations by defining your Linear and nonlinear part
 In this case:
 
 #### Linear part
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;L = -\frac{\partial^2 \psi}{\partial x^2}" title="\Large L = -\frac{\partial^2 \psi}{\partial x^2}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;L=-\frac{\partial^2 \psi}{\partial x^2}" title="\Large L=-\frac{\partial^2 \psi}{\partial x^2}" />
 
 
 And is located on this line, where $k^2$ is the fourier transformation of the derivative
