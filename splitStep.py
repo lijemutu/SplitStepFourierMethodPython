@@ -57,11 +57,11 @@ class Operators:
 def init(par: Param, voffset: float, wfcoffset: float) -> Operators:
     """Initialize the wavefunction coefficients and the potential."""
     opr = Operators(len(par.x))
-    # Define Potential energy vector eg. (1/2)(x-x_0)^2
-    opr.V = 0.5 * (par.x - voffset) ** 2
     # Initialize Initial conditions eg. e^(-(x-x_0)^2/2)
     opr.wfc = np.exp(-((par.x - wfcoffset) ** 2) / 2, dtype=complex)
 
+    # Define Potential energy vector eg. (1/2)(x-x_0)^2
+    opr.V = 0.5 * (par.x - voffset) ** 2
     # If a complex time is used, define real part and fourier vectors
     if par.im_time:
         # Second derivative Fourier Vector
